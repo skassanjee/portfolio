@@ -1,0 +1,54 @@
+.Intro{
+    height:70vh;
+   /* border: 1px solid green; */
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+
+.profile-card{
+  /*  border: 1px solid red; */
+    width: 60%;
+    height: 40vh;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+img{
+    margin: 0 auto6
+}
+.profile-pic{
+    border-radius: 100;
+
+}
+
+img{
+    border-radius: 4000px;
+    height: 400px;
+    width: auto;
+    margin: 0 auto;
+}
+
+/*===================================================
+===========INTRO PARAGRAPH===========================
+====================================================*/
+
+.name{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.job{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}

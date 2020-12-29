@@ -1,0 +1,14 @@
+1. we request the api in the backend folder
+2. we create a class component on the front end
+3. in package json
+5. import axios
+
+add proxy
+"proxy": "httep://localhost:5000"
+
+this is the BACKEND proxy
+so if there is a request, it will check on this port (we assigned backend to this port)
+
+componentDidMount = () =>{
+
+}
