@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Projects from '../../Components/Projects/Projects.component'
 import Data from '../../Data/projects.data'
-import './ProjectsSection.component.js'
+import './ProjectSection.styles.css'
 import { Grid } from '@material-ui/core';
 
 class ProjectsSection extends Component {
