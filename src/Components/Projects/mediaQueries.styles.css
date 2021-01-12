@@ -1,0 +1,25 @@
+@7media (max-width: 1324px) {
+    .card img{
+        width:  300px;
+        height: auto;
+    }
+}
+
+@media (max-width: 1280px) {
+    .card img{
+        width:  250px;
+        height: auto;
+    }
+}
+
+@media (max-width: 960px) {
+    .card img{
+        width:  400px;
+        height: auto;
+    }
+}
+
+/* value         |0px     600px    960px    1280px   1920px
+key           |xs      sm       md       lg       xl
+screen width  |--------|--------|--------|--------|-------->
+range         |   xs   |   sm   |   md   |   lg   |   xl */

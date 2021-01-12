@@ -1,0 +1,25 @@
+.card{
+    border: 1px solid pink;
+    justify-content: center;
+    text-align:center;
+    
+}
+
+.proj-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.card p{
+    width: 80%;
+    border: 1px solid green;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card img{
+    width:  400px;
+    height: auto;
+}
