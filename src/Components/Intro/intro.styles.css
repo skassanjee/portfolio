@@ -21,15 +21,17 @@
     justify-content: center;
 }
 img{
-    margin: 0 auto6
-}
-.profile-pic{
-    border-radius: 100;
-
+    margin: 0 auto;
 }
 
+
+.profilepicbox{
+    display: flex;
+    justify-content: center;
+    
+}
 .profilepic{
-    border-radius: 4000px;
+    border-radius: 200px;
     height: 400px;
     width: auto;
     margin: 0 auto;

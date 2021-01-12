@@ -1,0 +1,25 @@
+@media (max-width: 960px) {
+ .name{
+     font-size: 25px;
+ }
+ .job{
+     font-size: 20px;
+ }
+
+ .Intro{
+     width: 100%;
+ }
+}
+
+@media (max-width: 545px) {
+.profile-card{
+    width: 100%;
+}
+
+.profilepic{
+    border-radius: 200px;
+    height: 300px;
+    width: auto;
+    margin: 0 auto;
+    
+}}

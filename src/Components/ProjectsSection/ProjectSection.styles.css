@@ -1,0 +1,21 @@
+h1{
+width: 100px;
+margin-left: auto;
+margin-right: auto;
+font-size: 50px;
+font-family: 'Roboto', sans-serif;
+font-weight: 100;
+}
+
+.mainContainer{
+    margin: 0 auto;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
