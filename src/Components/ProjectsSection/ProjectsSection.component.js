@@ -22,7 +22,8 @@ class ProjectsSection extends Component {
                 <Grid item xs={12} md={4} spaceing={1}>
                     <div>
                          <Projects 
-                              title={"Natours"} link={'http://www.google.com'}
+                              title={"Natours"} 
+                              github={'http://www.google.com'}
                               description={"A fictional travel website built with ReactJS for the front end, and nodeJS for the backend."} />
                     </div>    
                 </Grid>

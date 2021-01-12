@@ -10,12 +10,22 @@
         width:  250px;
         height: auto;
     }
+
+    .projectLinks img{
+        height: 30px;
+        width: auto;
+    }
 }
 
 @media (max-width: 960px) {
     .card img{
         width:  400px;
         height: auto;
+    }
+
+    .projectLinks img{
+        height: 30px;
+        width: auto;
     }
 }
 
