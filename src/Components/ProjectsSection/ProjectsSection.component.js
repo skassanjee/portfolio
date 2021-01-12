@@ -18,22 +18,22 @@ class ProjectsSection extends Component {
     render(){
         return <div className="mainContainer">
 
-            <Grid item xs={12} md={12} container>
-                <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={12} container spacing={3}>
+                <Grid item xs={12} md={4} spaceing={1}>
                     <div>
                          <Projects 
                               title={"Natours"} link={'http://www.google.com'}
                               description={"A fictional travel website built with ReactJS for the front end, and nodeJS for the backend."} />
                     </div>    
                 </Grid>
-                <Grid item xs={12}  md={4}>
+                <Grid item xs={12}  md={4} spaceing={3}>
                     <div>
                          <Projects 
                               title={"project 1"}
                               description={"Some A fictional travel website built with ReactJS for the front end, and nodeJS for the backend."} />
                     </div> 
                     </Grid>    
-                <Grid item xs={12}  md={4}>
+                <Grid item xs={12}  md={4 }spaceing={3}>
                       <div>
                          <Projects 
                               title={"project 1"}

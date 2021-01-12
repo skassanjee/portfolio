@@ -8,9 +8,7 @@ const Projects = (props) =>{
         
         <div className='card' >
             <h1 className="proj-title"> {props.title}</h1>
-            <a href="http://www.google.com">
             <img src={img}/>
-            </a>
             <p> {props. description}</p>
         </div>
     )
