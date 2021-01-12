@@ -17,9 +17,11 @@ class ProjectsSection extends Component {
 
     render(){
         return <div className="mainContainer">
-
+        <div className="projectshead">
             <h1>Projects</h1>
 
+        </div>
+        
             <Grid item xs={12} md={12} container>
 
                 <Grid item xs={12} md={4} spaceing={3}>
