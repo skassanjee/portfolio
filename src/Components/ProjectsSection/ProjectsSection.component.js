@@ -12,45 +12,14 @@ class ProjectsSection extends Component {
             Data
         }
     }
-
-
-
     render(){
-        return <div className="mainContainer">
-        <div className="projectshead">
-            <h1>Projects</h1>
-
-        </div>
-        
-            <Grid item xs={12} md={12} container>
-
-                <Grid item xs={12} md={4} spaceing={3}>
-                    <div>
-                         <Projects 
-                              title={"Natours"} 
-                              github={'http://www.google.com'}
-                              description={"A fictional travel website built with ReactJS for the front end, and nodeJS for the backend."} />
-                    </div>    
-                </Grid>
-                <Grid item xs={12}  md={4} spaceing={3}>
-                    <div>
-                    <Projects 
-                              title={"Natours"} 
-                              github={'http://www.google.com'}
-                              description={"A fictional travel website built with ReactJS for the front end, and nodeJS for the backend."} />
-                    </div>    
-                    </Grid>    
-                <Grid item xs={12}  md={4 }spaceing={2}>
-                      <div>
-                       <Projects 
-                              title={"Natours"} 
-                              github={'http://www.google.com'}
-                              description={"A fictional travel website built with ReactJS for the front end, and nodeJS for the backend."} />
-                    </div>
-                    </Grid>
-            </Grid>
-                 </div>
-    }
+        return (
+            <div>
+                {this.state.Data.map(proj => (
+                    <Projects id={proj.id} description={proj.description} name={proj.name} img={proj.img} />
+                ))}
+            </div>
+        )
+        }
 }
-
 export default ProjectsSection
