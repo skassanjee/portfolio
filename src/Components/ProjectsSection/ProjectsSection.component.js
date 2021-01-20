@@ -16,7 +16,7 @@ class ProjectsSection extends Component {
         return (
             <div>
                 {this.state.Data.map(proj => (
-                    <Projects id={proj.id} description={proj.description} name={proj.name} img={proj.img} />
+                    <Projects id={proj.id} description={proj.description} name={proj.name} img={proj.img} githublink={proj.githublink}/>
                 ))}
             </div>
         )

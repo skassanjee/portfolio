@@ -1,42 +1,47 @@
 .card{
-    border: 1px solid #999;
-    justify-content: center;
-    text-align:center;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    background-color: #424246;
+    height: 350px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.proj-preview{
+    height: 300px;
+    border-radius: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.proj-description{
+    width: 60%;
+    color: #f3f3f3;
+}
+
+.proj-summary{
+    font-size: 22px;
     
 }
-
-.proj-title{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
-
-.card p{
-    width: 80%;
-    border: 1px solid green;
-    margin: 0 auto;
-    justify-content: center;
+.proj-name{
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 10px 0 20px 0;
+    font-weight: 100;
+    letter-spacing: 3px;
 }
 
-.card img{
-    width:  400px;
-    height: auto;
+.proj-link-div{
+    display:flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
 }
-/* 
-.projectLinks img{
+.link-images{
     height: 30px;
-    width: auto;
-    display: flex;
-;
-} */
-
-.viewLive{
-    padding: 15px;
-    border: 1px solid #888;
-    font-size: 20px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
 }
+
