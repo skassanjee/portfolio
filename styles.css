@@ -1,0 +1,190 @@
+html body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.topnav {
+    background-color: rgb(47, 6, 102);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #057da1;
+    color:#b9b7b7;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+
+
+.laptop-background{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./assets/images/laptop.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transform:translate(0, -20%);
+}
+.intro-name, .intro-description{
+    color:#b9b7b7
+}
+
+.intro-name{
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.intro-description{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+
+.about{
+  background-color: #0E3177;
+  color:#b9b7b7;
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 2rem;
+    font-weight: 100;
+    
+}
+
+.about-flex{
+  padding: 2rem;
+}
+.about-flex, .about-skills{
+  display: flex;
+  justify-content: space-around;
+  color:#b9b7b7;
+}
+
+.skills-title{
+  font-size: 2rem
+}
+.about-skills{
+  width: 60%;
+  text-align: center;
+}
+
+.skills-title{
+  text-align: center;
+}
+.skill-list li{
+  font-size: 1.5rem;
+  list-style:square;
+  padding: .5rem;
+  text-align: left;
+}
+
+
+/*---------------------------------------------
+Contact STYLES
+---------------------------------------------*/
+
+.contact{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+  background-color: #0E3177;
+  color:#b9b7b7;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+form{
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.form-div{
+  width: 50vw;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+input{
+  width: 100%;
+  height: 2rem;
+  padding: 1rem;
+  background-color: #8f8c8c42 ;
+  color: #8f8c8c;
+  border-radius: 30px;
+}
+
+textarea{
+  width: 100%;
+  background-color: #8f8c8c42;
+  color: #8f8c8c;
+  border-radius: 30px;
+  border: solid 2px rgba(68, 67, 68, 0.472);
+  margin-bottom: 2rem;
+}
+
+
+.submit{
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  height: 2.5rem;
+  font-weight: 100;
+  border-radius: 20px;
+  width: 9rem;
+  font-size: 2rem;
+  background-color: #8f8c8c42 ;
+  color: #8f8c8c;
+}
+.footer{
+  
+  font-size: 1.5rem;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #8f8c8c;
+   background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.76));
+  background-color: #0E3177;
+}
+
+
+.footer div{
+  padding: .5rem;
+}
