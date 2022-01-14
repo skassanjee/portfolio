@@ -16,13 +16,10 @@ app.use(routes)
 
 const mongoose = require('mongoose')
 
-const name = process.env.name;
-const pw = process.env.pw;
+
 const db = process.env.db;
 mongoose.connect(db)
 .then( result => console.log("Connected to DB!"))
 .catch(err => console.log(err))
 
 app.listen(3000)
-
-console.log(process.env)
