@@ -7,3 +7,11 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+
+  const validator = () =>{
+    if (document.contactForm.name.value === ""){
+      alert('please enter your name')
+    }
+  }
+  

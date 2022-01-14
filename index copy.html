@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./cards.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@100;400&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sahil's Portfolio</title>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">About</a>
+      <a href="#contact">Projects</a>
+      <a href="#about">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="laptop-background">
+      <div class="intro">
+        <span class="intro-name"
+          >Hello. My name is Sahil. <br />Welcome to my Portfolio</span
+        >
+        <span class="intro-description">
+          I am a fullstack Javascript Developer (MERN) with experience in Java and Python</span
+        >
+      </div>
+    </div>
+
+    <div class="about">
+      <div class="about-word">About</div>
+
+      <div class="about-flex">
+
+
+        <div class="about-skills">
+            <div>
+              <span class="skills-title">Coding Skills</span>
+              <ul class="skill-list">
+                <li>Programming: Java, Javascript, and Python</li>
+                <li>Experience Building Full Stack Javascript Applications</li>
+                <li>Experience creating automation scripts in python</li>
+                <li>Utilizes React JS to create single page applicatons</li>
+                            </ul>
+            </div>
+
+            <div class="about-skills">
+                <div>
+                  <span class="skills-title">Education</span>
+                  <ul class="skill-list">
+                    <li>BS Biological Sciences - The University of Texas at El Paso</li>
+                    <li>MS Environmental Sciences - The University of Texas at San Antonio</li>
+                    <li>Completed Coding Projects can be found on my Github, at the end of this page</li>
+                  </ul>
+                </div>      
+        </div>
+    </div>
+    </div>
+
+    <div>Projects</div>   
+
+
+    <div class="main">
+        <ul class="cards">
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
+              <div class="card_content">
+                <h2 class="card_title">Card Grid Layout</h2>
+                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                <button class="btn card_btn">Read More</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://picsum.photos/500/300/?image=5"></div>
+              <div class="card_content">
+                <h2 class="card_title">Card Grid Layout</h2>
+                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                <button class="btn card_btn">Read More</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
+              <div class="card_content">
+                <h2 class="card_title">Card Grid Layout</h2>
+                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                <button class="btn card_btn">Read More</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://picsum.photos/500/300/?image=14"></div>
+              <div class="card_content">
+                <h2 class="card_title">Card Grid Layout</h2>
+                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                <button class="btn card_btn">Read More</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://picsum.photos/500/300/?image=17"></div>
+              <div class="card_content">
+                <h2 class="card_title">Card Grid Layout</h2>
+                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                <button class="btn card_btn">Read More</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+              <div class="card_content">
+                <h2 class="card_title">Card Grid Layout</h2>
+                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                <button class="btn card_btn">Read More</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="contact">
+      <span>Lets Talk!</span>
+      <div class="form-div">
+      <form action="/send" method="post">
+       Name: <input type="text"><br>
+        Email: <input type="text"><br>
+        Phone: <input type="text"><br>
+        Message:<textarea name="message" id="" cols="30" rows="10"></textarea><br>
+        <button class="submit" type="submit">Submit</button>
+      </form>
+    </div>
+    </div>
+
+    <footer class="footer">
+      <img src="./assets//images/GitHub-Mark-Light-64px.png">
+      <div>Made by SK</div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
