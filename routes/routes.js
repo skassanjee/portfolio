@@ -23,14 +23,9 @@ Router.post('/send', (req, res, next) => {
       });
     
       newMessage.save().then(result => {
-          res.render('home')
-          .then((tasks) => {
-              res.render('home', {
-                  tasksList: tasks
-              })
+            res.render('redirect')
           })
           .catch(err => console.log(err))
       })
-})
 
 module.exports = Router 

@@ -12,6 +12,11 @@
     const validator = () =>{
       if (document.contactForm.name.value === ""){
         alert('please enter your name')
+      } else if(document.contactForm.email.value === ""){
+        alert('please enter an email')
+      } else if(document.contactForm.message.value ===""){
+        alert('please enter an email')
       }
+
     }
     
